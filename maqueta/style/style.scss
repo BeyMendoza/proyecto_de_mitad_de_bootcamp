@@ -1,0 +1,86 @@
+// Fuentes del diseno
+$secondary-font: 'Roboto', sans-serif;
+$branch-font: 'Source Serif Pro', serif;
+;
+
+// Paleta de colores
+$card-color: #131313;
+$border-color: #3F3F3F;
+$text-primary: #FFFFFF;
+$primary-color: #008573;
+$text-secondary: #BFBFBF;
+$background-color: #000000;
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+    // permite incluir el padding y bordes en el alto y ancho de un elemento.
+    // En este caso se aplicara a todos.
+    box-sizing: border-box;
+
+    font-family: $secondary-font;
+    color: $text-primary;
+}
+
+
+.texts-branch-container {
+    text-align: center;
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        color: $text-secondary;
+    }
+}
+
+// 
+
+.font-branch {
+    font-family: $branch-font;
+}
+
+
+body {
+    background-color: $background-color;
+}
+
+
+/* Incio del codigo del navbar */
+.renacimiento-navbar {
+    .navbar-top {
+        display: flex;
+        align-items: flex-start;
+        padding: 16px;
+        justify-content: space-around;
+        border-bottom: 1px solid $border-color;
+
+        button {
+            border: none;
+            padding: 10px;
+            background: transparent;
+        }
+
+    }
+
+    .nav-bottom {
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid $border-color;
+        button{
+            min-width: 8rem;
+            padding: 16px;
+            border:none;
+            background: transparent;
+            border-right:1px solid $border-color;
+
+        }
+        button:nth-child(1){
+            border-left:1px solid $border-color;
+        }
+    }
+
+}

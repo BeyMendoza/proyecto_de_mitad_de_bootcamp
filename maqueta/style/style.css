@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+}
+
+.texts-branch-container {
+  text-align: center;
+}
+.texts-branch-container h1 {
+  font-size: 2rem;
+}
+.texts-branch-container h3 {
+  color: #BFBFBF;
+}
+
+.font-branch {
+  font-family: "Source Serif Pro", serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+/* Incio del codigo del navbar */
+.renacimiento-navbar .navbar-top {
+  display: flex;
+  align-items: flex-start;
+  padding: 16px;
+  justify-content: space-around;
+  border-bottom: 1px solid #3F3F3F;
+}
+.renacimiento-navbar .navbar-top button {
+  border: none;
+  padding: 10px;
+  background: transparent;
+}
+.renacimiento-navbar .nav-bottom {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #3F3F3F;
+}
+.renacimiento-navbar .nav-bottom button {
+  min-width: 8rem;
+  padding: 16px;
+  border: none;
+  background: transparent;
+  border-right: 1px solid #3F3F3F;
+}
+.renacimiento-navbar .nav-bottom button:nth-child(1) {
+  border-left: 1px solid #3F3F3F;
+}/*# sourceMappingURL=style.css.map */
