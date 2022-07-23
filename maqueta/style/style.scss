@@ -24,9 +24,7 @@ $background-color: #000000;
     color: $text-primary;
 }
 
-
 body {
-
     background-color: $background-color !important;
 }
 
@@ -44,22 +42,19 @@ body {
     }
 }
 
-// 
-
 .font-branch {
     font-family: $branch-font;
 }
-
 
 body {
     background-color: $background-color;
 }
 
-
 /* Incio del codigo del navbar */
 .renacimiento-navbar {
-    position: sticky;
     top: 0;
+    z-index: 3;
+    position: sticky;
     background-color: $background-color;
     .navbar-top {
         display: flex;
@@ -67,7 +62,6 @@ body {
         padding: 16px;
         justify-content: space-around;
         border-bottom: 1px solid $border-color;
-
         button {
             border: none;
             padding: 10px;
@@ -75,7 +69,6 @@ body {
         }
 
     }
-
     .nav-bottom {
         display: flex;
         justify-content: center;
@@ -95,7 +88,6 @@ body {
 
 }
 
-
 .renacimiento-card {
 border: 1px solid $border-color !important ;
     background-color: $card-color !important;
@@ -103,4 +95,44 @@ border: 1px solid $border-color !important ;
 
 .renacimiento-text-secondary{
     color:$text-secondary !important;
+}
+
+
+
+footer {
+    text-align: center;
+    border-top: 1px solid $border-color;
+    .footer-container {
+        width: 80%;
+        margin: 0 auto;
+        .footer-container-lists {
+            div {
+                ul {
+                    padding: 24px;
+                    li {
+                        list-style: none;
+                        text-align: left;
+                        padding: 6px;
+                    }
+                }
+            }
+        }
+        .footer-container-socials {
+            width: 40%;
+            text-align: left;
+            padding: 12px;
+            .renacimiento-input {
+                padding: 12px;
+                background: $background-color;
+                border: 1px solid $border-color;
+            }
+            .renacimiento-button {
+                padding: 12px;
+                width: fit-content;
+                color: $text-primary;
+                background-color: $primary-color;
+            }
+        }
+    }
+   
 }

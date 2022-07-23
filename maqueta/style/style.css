@@ -32,9 +32,10 @@ body {
 
 /* Incio del codigo del navbar */
 .renacimiento-navbar {
+  top: 0;
+  z-index: 3;
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
   background-color: #000000;
 }
 .renacimiento-navbar .navbar-top {
@@ -72,4 +73,39 @@ body {
 
 .renacimiento-text-secondary {
   color: #BFBFBF !important;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid #3F3F3F;
+}
+footer .footer-container {
+  width: 80%;
+  margin: 0 auto;
+}
+footer .footer-container .footer-container-lists div ul {
+  padding: 24px;
+}
+footer .footer-container .footer-container-lists div ul li {
+  list-style: none;
+  text-align: left;
+  padding: 6px;
+}
+footer .footer-container .footer-container-socials {
+  width: 40%;
+  text-align: left;
+  padding: 12px;
+}
+footer .footer-container .footer-container-socials .renacimiento-input {
+  padding: 12px;
+  background: #000000;
+  border: 1px solid #3F3F3F;
+}
+footer .footer-container .footer-container-socials .renacimiento-button {
+  padding: 12px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #FFFFFF;
+  background-color: #008573;
 }/*# sourceMappingURL=style.css.map */
