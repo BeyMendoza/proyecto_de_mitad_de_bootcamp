@@ -6,13 +6,19 @@
   color: #FFFFFF;
 }
 
+body {
+  background-color: #000000 !important;
+}
+
 .texts-branch-container {
   text-align: center;
 }
 .texts-branch-container h1 {
   font-size: 2rem;
+  margin: 0;
 }
-.texts-branch-container h3 {
+.texts-branch-container h5 {
+  font-size: 1rem;
   color: #BFBFBF;
 }
 
@@ -25,6 +31,12 @@ body {
 }
 
 /* Incio del codigo del navbar */
+.renacimiento-navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #000000;
+}
 .renacimiento-navbar .navbar-top {
   display: flex;
   align-items: flex-start;
@@ -51,4 +63,13 @@ body {
 }
 .renacimiento-navbar .nav-bottom button:nth-child(1) {
   border-left: 1px solid #3F3F3F;
+}
+
+.renacimiento-card {
+  border: 1px solid #3F3F3F !important;
+  background-color: #131313 !important;
+}
+
+.renacimiento-text-secondary {
+  color: #BFBFBF !important;
 }/*# sourceMappingURL=style.css.map */

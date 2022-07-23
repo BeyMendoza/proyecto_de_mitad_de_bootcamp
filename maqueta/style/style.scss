@@ -1,7 +1,7 @@
 // Fuentes del diseno
 $secondary-font: 'Roboto', sans-serif;
 $branch-font: 'Source Serif Pro', serif;
-;
+
 
 // Paleta de colores
 $card-color: #131313;
@@ -25,14 +25,21 @@ $background-color: #000000;
 }
 
 
+body {
+
+    background-color: $background-color !important;
+}
+
 .texts-branch-container {
     text-align: center;
 
     h1 {
         font-size: 2rem;
+        margin: 0;
     }
 
-    h3 {
+    h5 {
+        font-size: 1rem;
         color: $text-secondary;
     }
 }
@@ -51,6 +58,9 @@ body {
 
 /* Incio del codigo del navbar */
 .renacimiento-navbar {
+    position: sticky;
+    top: 0;
+    background-color: $background-color;
     .navbar-top {
         display: flex;
         align-items: flex-start;
@@ -83,4 +93,14 @@ body {
         }
     }
 
+}
+
+
+.renacimiento-card {
+border: 1px solid $border-color !important ;
+    background-color: $card-color !important;
+}
+
+.renacimiento-text-secondary{
+    color:$text-secondary !important;
 }

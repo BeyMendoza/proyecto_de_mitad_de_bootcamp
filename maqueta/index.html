@@ -1,55 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <!-- Fuentes del proyecto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Estilos del proyecto -->
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style.css" />
 
     <!-- Estilos de bootstrap -->
 
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
+  <body>
     <!-- Inicio del codigo del navbar -->
     <nav class="renacimiento-navbar">
-        <div class="navbar-top">
-            <button>inicio</button>
-            <div class="texts-branch-container">
-                <h1 class="font-branch">El Renacimiento</h1>
-                <h3>Galeria Digital</h3>
-            </div>
-            <button>cerra sesion</button>
+      <div class="navbar-top">
+        <button>inicio</button>
+        <div class="texts-branch-container">
+          <h1 class="font-branch">El Renacimiento</h1>
+          <h5>Galeria Digital</h5>
         </div>
-        <div class="nav-bottom">
-            <button>Inicio</button>
-            <button>Crear Obra</button>
-            <button>Crear artista</button>
-        </div>
-
-
+        <button>cerra sesion</button>
+      </div>
+      <div class="nav-bottom">
+        <button>Inicio</button>
+        <button>Crear Obra</button>
+        <button>Crear artista</button>
+      </div>
     </nav>
+    <main>
+      <div class="container mt-5">
+        <div class="d-flex justify-content-end pt-3 pb-3">
+            <a href="#" class="btn btn-link">+ Agregar artista</a>
+        </div>
 
 
+        <div class="artists-grid">
+          <div class="row g-5">
+            <div class="col">
+              <div class="card renacimiento-card" style="width: 18rem">
+                <img
+                  src="https://images.pexels.com/photos/12734585/pexels-photo-12734585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Miguel Angel</h5>
+                  <p class="card-text renacimiento-text-secondary">
+                    Artista renacentista
+                  </p>
 
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <p class="card-text renacimiento-text-secondary m-0">
+                      4 obras
+                    </p>
+                    <a href="#" class="btn btn-link">ver</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+                <div class="card renacimiento-card" style="width: 18rem">
+                  <img
+                    src="https://images.pexels.com/photos/12734585/pexels-photo-12734585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Miguel Angel</h5>
+                    <p class="card-text renacimiento-text-secondary">
+                      Artista renacentista
+                    </p>
+  
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <p class="card-text renacimiento-text-secondary m-0">
+                        4 obras
+                      </p>
+                      <a href="#" class="btn btn-link">ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card renacimiento-card" style="width: 18rem">
+                  <img
+                    src="https://images.pexels.com/photos/12734585/pexels-photo-12734585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Miguel Angel</h5>
+                    <p class="card-text renacimiento-text-secondary">
+                      Artista renacentista
+                    </p>
+  
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <p class="card-text renacimiento-text-secondary m-0">
+                        4 obras
+                      </p>
+                      <a href="#" class="btn btn-link">ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card renacimiento-card" style="width: 18rem">
+                  <img
+                    src="https://images.pexels.com/photos/12734585/pexels-photo-12734585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Miguel Angel</h5>
+                    <p class="card-text renacimiento-text-secondary">
+                      Artista renacentista
+                    </p>
+  
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <p class="card-text renacimiento-text-secondary m-0">
+                        4 obras
+                      </p>
+                      <a href="#" class="btn btn-link">ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
+              <div class="col">
+                <div class="card renacimiento-card" style="width: 18rem">
+                  <img
+                    src="https://images.pexels.com/photos/12734585/pexels-photo-12734585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Miguel Angel</h5>
+                    <p class="card-text renacimiento-text-secondary">
+                      Artista renacentista
+                    </p>
+  
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <p class="card-text renacimiento-text-secondary m-0">
+                        4 obras
+                      </p>
+                      <a href="#" class="btn btn-link">ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card renacimiento-card" style="width: 18rem">
+                  <img
+                    src="https://images.pexels.com/photos/12734585/pexels-photo-12734585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Miguel Angel</h5>
+                    <p class="card-text renacimiento-text-secondary">
+                      Artista renacentista
+                    </p>
+  
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <p class="card-text renacimiento-text-secondary m-0">
+                        4 obras
+                      </p>
+                      <a href="#" class="btn btn-link">ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
+              <div class="col">
+                <div class="card renacimiento-card" style="width: 18rem">
+                  <img
+                    src="https://images.pexels.com/photos/12734585/pexels-photo-12734585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Miguel Angel</h5>
+                    <p class="card-text renacimiento-text-secondary">
+                      Artista renacentista
+                    </p>
+  
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <p class="card-text renacimiento-text-secondary m-0">
+                        4 obras
+                      </p>
+                      <a href="#" class="btn btn-link">ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card renacimiento-card" style="width: 18rem">
+                  <img
+                    src="https://images.pexels.com/photos/12734585/pexels-photo-12734585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Miguel Angel</h5>
+                    <p class="card-text renacimiento-text-secondary">
+                      Artista renacentista
+                    </p>
+  
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <p class="card-text renacimiento-text-secondary m-0">
+                        4 obras
+                      </p>
+                      <a href="#" class="btn btn-link">ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </main>
+    <br>
 
     <!-- Fin del codigo del navbar -->
-</body>
-
+  </body>
 </html>
